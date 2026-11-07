@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "run_id": "20261107-runner-smoke-001",
+  "task": "video",
+  "args": ["data/smoke_fixture.mp4", "--sample-seconds", "1", "--max-frames", "3"],
+  "inputs": ["data/smoke_fixture.mp4"],
+  "description": "Runner integration check only; synthetic fixture is not an accuracy benchmark."
+}

@@ -1,0 +1,219 @@
+{
+  "source": "data/videos/飞书20261106-111753.mp4",
+  "annotator": "assistant_visual_review",
+  "review_status": "人工框选方式的助手视觉初标，未经用户或实验人员复核；不是专家物态真值",
+  "sampling": "预先选取0、15、30、45、60、75、90秒，两只持续可定位的容器；不依据模型分数选择",
+  "bbox_format": "original-frame x1,y1,x2,y2; 640x480",
+  "entries": [
+    {
+      "frame": 0,
+      "time_seconds": 0,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "局部手部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 0,
+      "time_seconds": 0,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "无明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 225,
+      "time_seconds": 15,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "无明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 225,
+      "time_seconds": 15,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "无明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 450,
+      "time_seconds": 30,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "局部手部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 450,
+      "time_seconds": 30,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "手或工具局部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 675,
+      "time_seconds": 45,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "局部手部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 675,
+      "time_seconds": 45,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "手或工具局部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 900,
+      "time_seconds": 60,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "无明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 900,
+      "time_seconds": 60,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "手或工具局部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 1125,
+      "time_seconds": 75,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "局部手部遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 1125,
+      "time_seconds": 75,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "无明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 1350,
+      "time_seconds": 90,
+      "object_id": "A",
+      "bbox": [
+        177,
+        241,
+        248,
+        309
+      ],
+      "visible_description": "透明容器轮廓可见，内容物与背景难以区分，没有可靠液面证据。",
+      "occlusion": "手部明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    },
+    {
+      "frame": 1350,
+      "time_seconds": 90,
+      "object_id": "B",
+      "bbox": [
+        246,
+        297,
+        288,
+        339
+      ],
+      "visible_description": "圆形小容器内可见浅色区域，分辨率不足以确认其为固体、液体、反光或其他材料。",
+      "occlusion": "无明显遮挡",
+      "phase_gt": null,
+      "scorable": false
+    }
+  ]
+}

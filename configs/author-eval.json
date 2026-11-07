@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "run_id": "20261107-author-eval-001",
+  "task": "author_eval",
+  "args": ["data/author/user_study", "--split", "test"],
+  "inputs": ["data/author/user_study"],
+  "description": "Fixed-threshold automatic and GT-assisted diagnostic evaluation; not paper mAP. Model thresholds remain fixed in the entry script, captured in the source snapshot and metrics."
+}
